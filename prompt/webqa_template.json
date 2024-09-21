@@ -1,0 +1,146 @@
+{
+    "description": "标准中文闭卷知识问答提示模版",
+    "few_shot_use": true,
+    "instruction": "你是一个优秀的知识问答助手，利用你的知识来回答以下问题。",
+    "standard_prompt": "{instruction}\n\n### 问题 ###: {}\n### 回答 ###: ",
+    "few_shot_prompt": "{instruction}\n\n{examples}\n\n### 问题 ###: {question}\n### 回答 ###: ",
+    "output_split": "### 问题 ###",
+    "few_shot_split": {
+        "input": "### 问题 ###: ", 
+        "output": "### 回答 ###: "
+    },
+    "sample_few_shot_examplar": {
+        "examplar_1": [
+            {
+                "question": "19世纪，为制造发电机和电动机提供了理论基础的科学家是",
+                "answer": "法拉第"
+            }
+        ],
+        "examplar_2": [
+            {
+                "question": "旧金山金门大桥的巨大桥塔高几米？",
+                "answer": "227"
+            }
+        ],
+        "examplar_3": [
+            {
+                "question": "太阳系九大行星中哪一颗没有大气层包围着？",
+                "answer": "水星"
+            }
+        ],
+        "examplar_4": [
+            {
+                "question": "哪一位台湾男歌手和桂纶镁合作,自导自演了电影《不能说的秘密》?",
+                "answer": "周杰伦"
+            }
+        ],
+        "examplar_5": [
+            {
+                "question": "《三体》是什么小说？",
+                "answer": "科幻"
+            }
+        ],
+        "examplar_6": [
+            {
+                "question": "在争霸中为了取得政治上的优势桓公提出了什么口号？",
+                "answer": "尊王攘夷"
+            }
+        ],
+        "examplar_7": [
+            {
+                "question": "意大利国庆是几月几日?",
+                "answer": "6月2日"
+            }
+        ],
+        "examplar_8": [
+            {
+                "question": "人类中有百分之多少是左撇子？",
+                "answer": "10"
+            }
+        ],
+        "examplar_9": [
+            {
+                "question": "有“世界花城”之称的是那个城市？",
+                "answer": "巴黎"
+            }
+        ],
+        "examplar_10": [
+            {
+                "question": "茶花女作者",
+                "answer": "小仲马"
+            }
+        ]
+    },
+    "generate_few_shot_examplar": {
+        "examplar_1": [
+            {
+                "question_id": "Q_IR_VAL_002892",
+                "question": "大货车多少年报废",
+                "answer": "10年"
+            }
+        ],
+        "examplar_2": [
+            {
+                "question_id": "Q_IR_VAL_002899",
+                "question": "梅西效力于哪个俱乐部？",
+                "answer": "巴塞罗那"
+            }
+        ],
+        "examplar_3": [
+            {
+                "question_id": "Q_IR_VAL_001145",
+                "question": "进化论的奠基人,物种起源的作者是谁?",
+                "answer": "达尔文"
+            }
+        ],
+        "examplar_4": [
+            {
+                "question_id": "Q_IR_VAL_001387",
+                "question": "好莱坞巨星阿诺施瓦辛格曾经是美国哪个州的州长?",
+                "answer": "加利福尼亚"
+            }
+        ],
+        "examplar_5": [
+            {
+                "question_id": "Q_IR_VAL_001382",
+                "question": "吃太多手摇爆米花爆出的米花容易造成什么金属元素中毒?",
+                "answer": "铅"
+            }
+        ],
+        "examplar_6": [
+            {
+                "question_id": "Q_IR_VAL_000367",
+                "question": "光纤通信是利用光的什么特性？",
+                "answer": "全反射"
+            }
+        ],
+        "examplar_7": [
+            {
+                "question_id": "Q_IR_VAL_000567",
+                "question": "《飞鸟集》是哪位作家的诗集？",
+                "answer": "泰戈尔"
+            }
+        ],
+        "examplar_8": [
+            {
+                "question_id": "Q_IR_VAL_000030",
+                "question": "拉丁美洲第一个独立的国家是：",
+                "answer": "海地"
+            }
+        ],
+        "examplar_9": [
+            {
+                "question_id": "Q_IR_VAL_002096",
+                "question": "释小龙父亲是谁",
+                "answer": "陈同山"
+            }
+        ],
+        "examplar_10": [
+            {
+                "question_id": "Q_IR_VAL_001963",
+                "question": "我们一般从螃蟹的腹脐形状判断螃蟹的公母,那么母蟹的腹脐是什么形状的?",
+                "answer": "圆"
+            }
+        ]
+    }
+}
